@@ -47,9 +47,9 @@ int log_init(void)
 void log_shutdown(void)
 {
    /* Snoop around for unallocated blocks */
-   mem_checkblocks();
-   mem_checkleaks();
-   mem_cleanup();
+  //  mem_checkblocks();
+  //  mem_checkleaks();
+  //  mem_cleanup();
 
 //   if (NULL != errorlog)
 //      fclose(errorlog);

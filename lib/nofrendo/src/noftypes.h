@@ -62,7 +62,7 @@ typedef enum
 #endif
 #endif /* !__cplusplus */
 
-#include <memguard.h>
+//#include <memguard.h>
 #include <log.h>
 
 #ifdef NOFRENDO_DEBUG
